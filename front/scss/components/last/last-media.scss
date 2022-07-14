@@ -1,0 +1,23 @@
+.last {
+  $last-media: 680px;
+  @media (max-width: $last-media) {
+    &__item-banner {
+      display: none;
+    }
+    .col-4 {
+      width: 50%;
+    }
+    svg {
+      display: none;
+    }
+  }
+  $last-media2: 280px;
+  @media (max-width: $last-media2) {
+    .col-4 {
+      width: 100%;
+    }
+    .row {
+      gap: 21px;
+    }
+  }
+}

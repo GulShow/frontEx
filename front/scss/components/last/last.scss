@@ -1,0 +1,36 @@
+.last {
+  padding-top: 60px;
+
+  &__heading {
+    font-size: $font-xl;
+    color: $text-color;
+    text-transform: uppercase;
+  }
+
+  .row {
+    padding-top: 30px;
+  }
+
+  &__text {
+    padding-top: 10px;
+    &-a {
+      text-decoration: none;
+      color: $last-color;
+      font-size: $font-md;
+      cursor: pointer;
+    }
+    &-hash {
+      font-size: $font-sm;
+      color: $text-color;
+    }
+  }
+  &__item {
+    position: relative;
+    svg {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+    }
+  }
+
+}
